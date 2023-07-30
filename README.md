@@ -1,5 +1,5 @@
 # SignXpert
-Team members- Ritika Thakur, Swarnima Prasad , Arzoo Jhamb
+Team members- Ritika Thakur, Swarnima Prasad , Aarzoo Jhamb
 ## We are going to attempt to create an American sign language translator
 
 **Problem Statement:**
