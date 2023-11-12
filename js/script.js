@@ -6,6 +6,29 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+// Add this code to your existing script.js or create a new file and include it
+const signVideo = document.getElementById('signVideo');
+const signCanvas = document.getElementById('signCanvas');
+const predictionText = document.getElementById('predictionText');
+
+navigator.mediaDevices.getUserMedia({ video: true })
+    .then((stream) => {
+        signVideo.srcObject = stream;
+        return new Promise((resolve) => {
+            signVideo.onloadedmetadata = resolve;
+        });
+    })
+    .then(() => {
+        setInterval(detectSign, 1000); // Call detectSign function every second
+    })
+    .catch((err) => {
+        console.error('Error accessing webcam:', err);
+    });
+
+function detectSign() {
+    // Your sign language detection code goes here
+    // Update predictionText.innerHTML based on the detected sign
+}
 
 
 // scroll sections
