@@ -165,6 +165,42 @@ section {
 .btn-box .btn:hover {
     color: var(--bg-color);
 }
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add any other styling you may need */
+}
+
+.Home-content {
+    width: 50%; /* Adjust the width as needed */
+}
+
+.Home-sci {
+    width: 80%; /* Adjust the width as needed */
+    text-align: right;
+}
+
+.Home-sci a {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+
+.Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home-content {
+    width: 55%; /* Adjust the width as needed */
+}
+
+.Home-sci,
+.Home-img {
+    width: 50%; /* Adjust the width as needed */
+}
+
 
 /* .btn-box .btn:nth-child(2) {
     background: transparent;
@@ -195,9 +231,44 @@ section {
     width: 100%;
 }
 
+.Meet-The-Team-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Meet-The-Team-item {
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.Meet-The-Team-box {
+    width: 50%;
+}
+
+.Meet-The-Team-content {
+    margin-top: 40px;
+    width: 70%;
+    padding-left: 50px;
+}
+
+.Meet-The-Team-social {
+    margin-top: 70px;
+}
+
+/* Add other styling as needed */
+.Meet-The-Team-social {
+    margin-top: 70px;
+    display: flex;
+}
+
+.Meet-The-Team-social a {
+    margin-right: 10px; /* Adjust the margin as needed */
+}
+
 .Home-sci {
     position: absolute;
-    bottom: 4rem;
+    bottom: 10%;
     width: 170px;
     display: flex;
     justify-content: space-between;
@@ -319,7 +390,7 @@ span {
     justify-content: space-between;
 } */
 
-/* .Meet-The-Team-social a {
+.Meet-The-Team-social a {
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -354,7 +425,7 @@ span {
 
 .Meet-The-Team-social a:hover::before {
     width: 100%;
-} */
+}
 
 .footer {
     display: flex;
