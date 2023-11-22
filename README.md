@@ -16,11 +16,9 @@ Team members- Ritika Thakur, Swarnima Prasad , Aarzoo Jhamb
 
 -> Backend: Python
 
--> Database: SQL,MongoDb
-
 -> Libraries: TensorFlow, OpenCV,media pipe
 
--> Framework: Figma,Django,Flask,react ,angular
+-> Framework: Figma,Flask
 
 -> APIs: Google Cloud Translation API,gesture dataset
 
